@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    min-width: 400px;
+}
+
+.extension {
+    width: 30rem;
+    min-height: 7rem;
+    margin: 2rem auto;
+    padding: 1rem 1.5rem;
+    background-color: #d4dee7;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 100%;
+    border: 1px solid #a1c7eb;
+    margin-bottom: .4rem;
+    outline: none;
+    padding: .5rem ;
+}
+
+button {
+    width: 27%;
+    padding: .57rem .7rem;
+    border: 1px solid #3b89bd;
+    background: #3b89bd;
+    color: #fff;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+#delete-btn {
+    background: #fff;
+    color: #3b89bd;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: .3rem 0;
+    text-decoration: underline;
+}
+
+a {
+    color: #8a8af7;
+}
